@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: #f8f8f8;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header__logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .header__nav {
+            display: flex;
+        }
+
+        .header__link {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .header__search {
+            display: flex;
+        }
+
+        .header__input {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 0.5rem;
+        }
+
+        .header__button {
+            padding: 0.5rem;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">--</div>
+        <nav class="header__nav">
+            <a href="#home" class="header__link">Inicio</a>
+            <a href="#about" class="header__link">Sobre Nosotros</a>
+            <a href="#services" class="header__link">Servicios</a>
+            <a href="#contact" class="header__link">Contacto</a>
+        </nav>
+        <form class="header__search">
+            <input type="text" class="header__input" placeholder="Buscar...">
+            <button type="submit" class="header__button">Buscar</button>
+        </form>
+    </header>
+</body>
+</html>

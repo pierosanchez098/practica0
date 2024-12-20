@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .comentarios {
+            margin: 2rem 0;
+        }
+
+        .comentarios__titulo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .comentarios__lista {
+            list-style: none;
+            padding: 0;
+        }
+
+        .comentarios__item {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 0.5rem;
+            background-color: #f9f9f9;
+        }
+
+        .comentarios__autor {
+            font-weight: bold;
+        }
+
+        .comentarios__texto {
+            margin-top: 0.5rem;
+        }
+
+        .comentarios__formulario {
+            margin-top: 2rem;
+        }
+
+        .comentarios__input {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 0.5rem;
+        }
+
+        .comentarios__boton {
+            padding: 0.5rem 1rem;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="comentarios">
+        <h2 class="comentarios__titulo">Comentarios</h2>
+        <ul class="comentarios__lista">
+            <li class="comentarios__item">
+                <p class="comentarios__autor">Piero</p>
+                <p class="comentarios__texto">Este es un comentario.</p>
+            </li>
+            <li class="comentarios__item">
+                <p class="comentarios__autor">Sanchez</p>
+                <p class="comentarios__texto">Otro.</p>
+            </li>
+        </ul>
+
+        <form class="comentarios__formulario">
+            <textarea class="comentarios__input" rows="4" placeholder="Escribe tu comentario..."></textarea>
+            <button type="submit" class="comentarios__boton">Comentar</button>
+        </form>
+    </section>
+</body>
+</html>
