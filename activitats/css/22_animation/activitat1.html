@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #000;
+    }
+
+    .sol, .luna {
+      position: absolute;
+      border-radius: 50%;
+    }
+
+    .sol {
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+    }
+
+    .luna {
+      width: 150px;
+      height: 150px;
+      background-color: gray;
+      animation: eclipse 5s infinite;
+    }
+
+    @keyframes eclipse {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(150px); /* Luna cubre el Sol */
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="sol"></div>
+  <div class="luna"></div>
+</body>
+</html>

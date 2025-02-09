@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .pendulo {
+      width: 10px;
+      height: 100px;
+      background-color: #000;
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      transform-origin: top center;
+      animation: movimientoPendulo 2s ease-in-out infinite;
+    }
+
+    @keyframes movimientoPendulo {
+      0% {
+        transform: rotate(30deg);
+      }
+      50% {
+        transform: rotate(-30deg);
+      }
+      100% {
+        transform: rotate(30deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="pendulo"></div>
+</body>
+</html>
