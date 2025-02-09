@@ -1,0 +1,66 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .chat-container {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .mensaje {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .contenido {
+            background: #e1f5fe;
+            padding: 10px;
+            border-radius: 10px;
+            flex-grow: 1;
+        }
+        .nombre {
+            font-weight: bold;
+        }
+        .fecha {
+            font-size: 0.8rem;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="mensaje">
+            <img src="avatar1.jpg" alt="Avatar 1" class="avatar">
+            <div class="contenido">
+                <p class="nombre">Usuario 1</p>
+                <p class="fecha">10:30 AM</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="mensaje">
+            <img src="avatar2.jpg" alt="Avatar 2" class="avatar">
+            <div class="contenido">
+                <p class="nombre">Usuario 2</p>
+                <p class="fecha">10:31 AM</p>
+                <p>Consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
