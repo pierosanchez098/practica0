@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .cookies {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #f1c40f;
+      padding: 20px;
+      border-radius: 5px;
+      display: none;
+      opacity: 0;
+      animation: mostrarCookies 2s forwards 2s;
+    }
+
+    @keyframes mostrarCookies {
+      0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="cookies">¡Acepta nuestras cookies!</div>
+</body>
+</html>
