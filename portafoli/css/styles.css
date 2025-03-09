@@ -78,24 +78,10 @@ nav ul li a:hover {
     padding: 0;
 }
 
-/* Para el hero de contacto */
-.hero-contacto {
-    background-image: url('../imatges/herobg.png');
-    background-size: cover;
-    background-position: center;
-    color: #E7DFC6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
 
-/* Para el hero de wireframes */
-.hero-wire {
-    background-image: url('../imatges/herobg.png');
+/* Para el hero de actividades */
+.hero-actividades {
+    background-image: url('../imatges/herobg5.jpg');
     background-size: cover;
     background-position: center;
     color: #E7DFC6;
@@ -116,13 +102,13 @@ nav ul li a:hover {
     border-radius: 15px; 
 }
 
-.hero h2, .hero-sobremi h2 {
+.hero h2, .hero-sobremi, .hero-actividades h2 {
     font-size: 3.5em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.hero p, .hero-sobremi p {
+.hero p, .hero-sobremi p,.hero-actividades p {
     font-size: 1.5em; 
     margin-bottom: 30px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
