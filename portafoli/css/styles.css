@@ -241,3 +241,36 @@ footer ul li a {
 footer ul li a:hover {
     color: #DBD582;
 }
+
+/* Para las tablas de competencias e idiomas */
+.tabla-competencia,
+.tabla-idiomas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #E9F1F7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-competencia th,
+.tabla-competencia td,
+.tabla-idiomas th,
+.tabla-idiomas td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #54426B;
+}
+
+.tabla-competencia th,
+.tabla-idiomas th {
+    background-color: #623CEA;
+    color: #E7DFC6;
+    font-weight: bold;
+}
+
+.tabla-competencia tr:hover,
+.tabla-idiomas tr:hover {
+    background-color: #DBD582;
+    transition: background-color 0.3s ease;
+}
