@@ -1,20 +1,30 @@
+/* De todo en general */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 10px 0 0;
 }
 
 nav ul li {
@@ -25,10 +35,17 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Para el hero del index */
 .hero {
-    background-image: url('../practica0/portafoli/imatges/herobg.png');
+    background-image: url('images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -37,18 +54,20 @@ nav ul li a {
 }
 
 .contenido-hero {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 .hero h2 {
     font-size: 3em;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
     font-size: 1.2em;
     margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .boton-hero {
@@ -58,26 +77,73 @@ nav ul li a {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.1em;
+    transition: background-color 0.3s ease;
 }
 
 .boton-hero:hover {
     background-color: #ff4a3a;
 }
 
+/* Para las secciones */
 section {
-    padding: 20px;
+    padding: 40px 20px;
     margin: 20px;
     background-color: #fff;
     border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Con gridl */
+.rejilla-formacion {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.item-formacion {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-formacion:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item-formacion h4 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.item-formacion p {
+    margin: 0;
+    color: #666;
+}
+
+/* Para el formulario de contacto */
 .formulario-contacto {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .campo-formulario {
@@ -88,6 +154,7 @@ section {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #333;
 }
 
 .campo-formulario input,
@@ -100,7 +167,7 @@ section {
 }
 
 .campo-formulario textarea {
-    resize: vertical; 
+    resize: vertical;
 }
 
 .boton-enviar {
@@ -111,12 +178,14 @@ section {
     border-radius: 5px;
     font-size: 1.1em;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .boton-enviar:hover {
     background-color: #ff4a3a;
 }
 
+/* Lo de wireframes */
 .wireframe {
     margin-bottom: 30px;
     text-align: center;
@@ -125,6 +194,7 @@ section {
 .wireframe h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color: #333;
 }
 
 .wireframe img {
@@ -132,22 +202,26 @@ section {
     height: auto;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Del footer */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: relative;
-    width: 100%;
-    bottom: 0;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
 }
 
 footer ul {
     list-style-type: none;
     padding: 0;
+    margin: 10px 0 0;
 }
 
 footer ul li {
@@ -158,4 +232,9 @@ footer ul li {
 footer ul li a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #ff6f61;
 }
