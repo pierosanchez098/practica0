@@ -54,18 +54,30 @@ nav ul li a:hover {
     text-align: center;
 }
 
+/* Para el hero de sobremi.html */
+.hero-sobremi {
+    background-image: url('../practica0/portafoli/imatges/herobg2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #E7DFC6;
+    padding: 100px 20px;
+    text-align: center;
+}
+
 .contenido-hero {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.hero h2 {
+.hero h2,
+.hero-sobremi h2 {
     font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.hero p {
+.hero p,
+.hero-sobremi p {
     font-size: 1.2em;
     margin-bottom: 30px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
