@@ -43,12 +43,13 @@ nav ul li a:hover {
     color: #ff6f61;
 }
 
+
 /* Para el hero del index */
 .hero {
     background-image: url('../practica0/portafoli/imatges/herobg.png');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #E7DFC6;
     padding: 100px 20px;
     text-align: center;
 }
@@ -71,8 +72,8 @@ nav ul li a:hover {
 }
 
 .boton-hero {
-    background-color: #ff6f61;
-    color: #fff;
+    background-color: #623CEA;
+    color: #E7DFC6;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -81,14 +82,14 @@ nav ul li a:hover {
 }
 
 .boton-hero:hover {
-    background-color: #ff4a3a;
+    background-color: #54426B;
 }
 
-/* Para las secciones */
+/* Para las secciones generales */
 section {
     padding: 40px 20px;
     margin: 20px;
-    background-color: #fff;
+    background-color: #E7DFC6;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -96,16 +97,16 @@ section {
 h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #333;
+    color: #54426B;
 }
 
 h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
-    color: #555;
+    color: #623CEA;
 }
 
-/* Con gridl */
+/* Para la formación en rejillas */
 .rejilla-formacion {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -113,7 +114,7 @@ h3 {
 }
 
 .item-formacion {
-    background-color: #f9f9f9;
+    background-color: #E9F1F7;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -128,12 +129,12 @@ h3 {
 .item-formacion h4 {
     margin: 0 0 10px;
     font-size: 1.2em;
-    color: #333;
+    color: #54426B;
 }
 
 .item-formacion p {
     margin: 0;
-    color: #666;
+    color: #623CEA;
 }
 
 /* Para el formulario de contacto */
@@ -141,7 +142,7 @@ h3 {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #E9F1F7;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -154,16 +155,18 @@ h3 {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #333;
+    color: #54426B;
 }
 
 .campo-formulario input,
 .campo-formulario textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #54426B;
     border-radius: 4px;
     font-size: 1em;
+    background-color: #E7DFC6;
+    color: #54426B;
 }
 
 .campo-formulario textarea {
@@ -171,8 +174,8 @@ h3 {
 }
 
 .boton-enviar {
-    background-color: #ff6f61;
-    color: #fff;
+    background-color: #623CEA;
+    color: #E7DFC6;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -182,10 +185,10 @@ h3 {
 }
 
 .boton-enviar:hover {
-    background-color: #ff4a3a;
+    background-color: #54426B;
 }
 
-/* Lo de wireframes */
+/* Para los wireframes */
 .wireframe {
     margin-bottom: 30px;
     text-align: center;
@@ -194,21 +197,21 @@ h3 {
 .wireframe h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #333;
+    color: #54426B;
 }
 
 .wireframe img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #ccc;
+    border: 1px solid #54426B;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Del footer */
+/* Para el footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #54426B;
+    color: #E7DFC6;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
@@ -230,11 +233,11 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #fff;
+    color: #E7DFC6;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 footer ul li a:hover {
-    color: #ff6f61;
+    color: #DBD582;
 }
