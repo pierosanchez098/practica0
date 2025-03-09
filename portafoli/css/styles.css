@@ -106,7 +106,7 @@ h3 {
     color: #623CEA;
 }
 
-/* Para la formación en rejillas */
+/* Para las rejillas */
 .rejilla-formacion {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
