@@ -1,8 +1,11 @@
 /* De todo en general */
-body {
+body, html {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -14,6 +17,7 @@ header {
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
 }
 
 header h1 {
@@ -43,15 +47,19 @@ nav ul li a:hover {
     color: #ff6f61;
 }
 
-
 /* Para el hero del index */
 .hero {
     background-image: url('../imatges/herobg.png');
     background-size: cover;
     background-position: center;
     color: #E7DFC6;
-    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 /* Para el hero de sobremi.html */
@@ -60,23 +68,31 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     color: #E7DFC6;
-    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .contenido-hero {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 90%;
+    width: 800px; 
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 15px; 
 }
 
 .hero h2, .hero-sobremi h2 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero p, .hero-sobremi p {
-    font-size: 1.2em;
+    font-size: 1.5em; 
     margin-bottom: 30px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -84,10 +100,10 @@ nav ul li a:hover {
 .boton-hero {
     background-color: #623CEA;
     color: #E7DFC6;
-    padding: 10px 20px;
+    padding: 15px 30px; 
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     transition: background-color 0.3s ease;
 }
 
