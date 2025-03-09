@@ -46,7 +46,7 @@ nav ul li a:hover {
 
 /* Para el hero del index */
 .hero {
-    background-image: url("../practica0/portafoli/imatges/herobg.png");
+    background-image: url('../imatges/herobg.png');
     background-size: cover;
     background-position: center;
     color: #E7DFC6;
@@ -56,7 +56,7 @@ nav ul li a:hover {
 
 /* Para el hero de sobremi.html */
 .hero-sobremi {
-    background-image: url("../practica0/portafoli/imatges/herobg2.jpg");
+    background-image: url('../imatges/herobg2.jpg');
     background-size: cover;
     background-position: center;
     color: #E7DFC6;
