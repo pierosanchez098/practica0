@@ -102,7 +102,7 @@ nav ul li a:hover {
     border-radius: 15px; 
 }
 
-.hero h2, .hero-sobremi, .hero-actividades h2 {
+.hero h2, .hero-sobremi h2, .hero-actividades h2 {
     font-size: 3.5em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
